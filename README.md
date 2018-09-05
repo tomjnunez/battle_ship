@@ -1,1 +1,1 @@
-# battle_ship
+# battle_ship project

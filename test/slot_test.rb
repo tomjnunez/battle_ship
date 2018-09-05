@@ -22,4 +22,13 @@ class SlotTest < Minitest::Test
 
     assert true, slot.occupied
   end
+
+  def test_ship_can_fire_at_slot
+    slot = Slot.new
+    slot.enemy_shot
+
+
+    assert true, slot.enemy_shot
+    refute slot.empty
+  end
 end

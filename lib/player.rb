@@ -5,7 +5,13 @@ attr_reader :total_ships, :ship_1, :ship_2, :human
     @ship_1 = []
     @ship_2 = []
     @human = true
+  end
+
+  def place_ship
 
   end
 
+  def shoot
+
+  end
 end
